@@ -171,6 +171,7 @@
             this.addQuestionButton.TabIndex = 14;
             this.addQuestionButton.Text = "Add Question";
             this.addQuestionButton.UseVisualStyleBackColor = true;
+            this.addQuestionButton.Click += new System.EventHandler(this.addQuestionButton_Click);
             // 
             // AddQuestion
             // 

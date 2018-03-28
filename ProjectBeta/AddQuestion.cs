@@ -16,5 +16,10 @@ namespace ProjectBeta
         {
             InitializeComponent();
         }
+
+        private void addQuestionButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
