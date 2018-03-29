@@ -13,6 +13,7 @@ namespace ProjectBeta
     public partial class MainWindow : Form
     {
         BindingList<Question> questionList;
+        AddQuestion addQuestion;
 
         public MainWindow()
         {
@@ -23,11 +24,12 @@ namespace ProjectBeta
         {
             questionList = new BindingList<Question>();
             questionListBox.DataSource = questionList;
+            addQuestion = new AddQuestion();
         }
 
         private void newQuestionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            addQuestion.Show();
         }
 
         private void saveQuestionsToolStripMenuItem_Click(object sender, EventArgs e)

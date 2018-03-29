@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ProjectBeta
 {
     [Serializable]
-    class Question
+    public class Question
     {
         string questionString;
         string answerA;
